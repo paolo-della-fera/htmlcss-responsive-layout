@@ -8,7 +8,7 @@ Non potremo modificare il codice originale (né css, né html), ma potremo modif
 
 Analizziamo bene il sito ed il markup, poi proviamo ad accontentare le richieste del cliente come segue, aiutandoci con gli screenshot in allegato:
 
-Modalità Tablet (sopra i 768px)
+*Modalità Tablet (sopra i 768px)*
 
 Il logo nell'header si allinea a sinistra
 Il padding del contenuto principale della pagina aumenta
@@ -19,7 +19,7 @@ I bottoni social si allargano
 compare il banner pubblicitario
 l'immagine nella descrizione della ricetta viene circondata dal testo
 
-Modalità Desktop(sopra i 992px)
+*Modalità Desktop(sopra i 992px)*
 
 La grandezza del titolo della ricetta aumenta ancora di più
 Le informazioni della ricetta tornano a disporsi una sotto l'altra
@@ -27,7 +27,7 @@ Il video e le altre informazioni della ricetta si dispongono uno accanto all'alt
 Compaiono i nomi delle piattaforme social
 Nel footer i dati del sito e il menu di navigazione di dispongono sulla stessa linea ma su lati opposti
 
-Bonus
+*Bonus*
 Modalità Large Mobile (576px)
 
 l'immagine nella descrizione della ricetta viene circondata dal testo anche su mobile ma solo se c'è spazio sufficiente, quindi a partire da 576px
