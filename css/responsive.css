@@ -25,7 +25,6 @@
 
 
     /* Recipe Section */
-
     .quick-notes ul {
         display: flex;
         flex-wrap: wrap;
@@ -37,21 +36,18 @@
 
 
     /* Social Network buttons  */
-
     .social-networks button {
         width: calc(100% / 5);
     }
 
 
     /* Advertisement banner */
-
     .ads {
         display: block;
     }
 
 
     /* Recipe Presentation */
-
     .presentation img {
         float: left;
         margin: 0 10px 10px 0;
@@ -60,3 +56,66 @@
 }
 
 /* #endregion tablet 768px */
+
+
+/* #region desktop 992px */
+
+@media screen and (min-width: 992px) {
+
+    /* heder_desktop */
+    .recipe-name {
+        font-size: 2.8rem;
+    }
+
+
+    /* Recipe_Section_desktop */
+    .quick-notes ul {
+        display: block;
+    }
+
+    .quick-notes li {
+        width: 100%;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        width: 65%;
+        height: 400px;
+        overflow: hidden;
+    }
+
+    .recipe-info {
+        width: 35%;
+    }
+
+    .recipe-video iframe {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+
+    /* Social_Network_buttons_desktop */
+    .social-networks .label {
+        display: inline;
+    }
+
+
+    /* footer */
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    footer nav ul {
+        justify-content: flex-end;
+    }
+}
+
+
+/* #endregion desktop 992px */
