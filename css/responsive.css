@@ -23,41 +23,38 @@
         font-size: 2rem;
     }
 
+
     /* Recipe Section */
-    @media screen and (min-width: 768px) {
 
-        .quick-notes ul {
-            display: flex;
-            flex-wrap: wrap;
-        }
-
-        .quick-notes li {
-            width: calc(100% / 3);
-        }
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    .quick-notes li {
+        width: calc(100% / 3);
+    }
+
 
     /* Social Network buttons  */
-    @media screen and (min-width: 768px) {
 
-        .social-networks button {
-            width: calc(100% / 5);
-        }
-
+    .social-networks button {
+        width: calc(100% / 5);
     }
+
 
     /* Advertisement banner */
-    @media screen and (min-width: 768px) {
-        .ads {
-            display: block;
-        }
+
+    .ads {
+        display: block;
     }
 
+
     /* Recipe Presentation */
-    @media screen and (min-width: 768px) {
-        .presentation img {
-            float: left;
-            margin: 0 10px 10px 0;
-        }
+
+    .presentation img {
+        float: left;
+        margin: 0 10px 10px 0;
     }
 
 }
