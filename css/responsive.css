@@ -1,2 +1,83 @@
 /* Soluzione qui */
 
+
+/* #region tablet 768px */
+
+
+/* #region header */
+
+@media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: left;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .recipe-name {
+        font-size: 2rem;
+    }
+}
+
+/* #endregion header */
+
+
+/* #region Recipe Section */
+
+@media screen and (min-width: 768px) {
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .quick-notes li {
+        width: calc(100% / 3);
+    }
+}
+
+/* #endregion Recipe Section */
+
+
+/* #region Social Network buttons  */
+
+@media screen and (min-width: 768px) {
+
+    .social-networks button {
+        width: calc(100% / 5);
+    }
+
+}
+
+/* #endregion Social Network buttons */
+
+
+/* #region Advertisement banner */
+
+@media screen and (min-width: 768px) {
+    .ads {
+        display: block;
+    }
+}
+
+/* #endregion Advertisement banner */
+
+
+/* #region Recipe Presentation */
+
+@media screen and (min-width: 768px) {
+    .presentation img {
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+}
+
+/* #endregion Recipe Presentation */
+
+
+/* #endregion tablet 768px */
